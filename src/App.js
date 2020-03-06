@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Teamtau is back
+          Teamtau is back , terminator
         </p>
       </header>
     </div>

@@ -1,4 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c
+git commit -am "your commit message"
+git push origin master
 
 ## Available Scripts
 
