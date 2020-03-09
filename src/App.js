@@ -1,7 +1,4 @@
 import React from 'react';
-import tele2 from './asc6h-z2cnj.svg';
-import Metric from './components/Metric'
-import Health from './components/Health'
 function App() {
     return (
         <div className="container-fluid">
