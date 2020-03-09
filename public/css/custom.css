@@ -1,0 +1,121 @@
+﻿/* Global Styles */
+@font-face {
+    font-family: 'Tele2Sans-Regular';
+    src: url('../fonts/Tele2Sans-Regular.eot');
+    src: url('../fonts/Tele2Sans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Tele2Sans-Regular.woff') format('woff'), url('Tele2Sans-Regular.ttf') format('truetype'), url('../fonts/Tele2Sans-Regular.svg#Tele2Sans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tele2Sans-Light';
+    src: url('../fonts/Tele2Sans-Light.eot');
+    src: url('../fonts/Tele2Sans-Light.eot?#iefix') format('embedded-opentype'),url('../fonts/Tele2Sans-Light.woff') format('woff'),url('../fonts/Tele2Sans-Light.ttf') format('truetype'),url('../fonts/Tele2Sans-Light.svg#Tele2Sans-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tele2Sans-Medium';
+    src: url('../fonts/Tele2Sans-Medium.eot');
+    src: url('../fonts/Tele2Sans-Medium.eot?#iefix') format('embedded-opentype'),url('../fonts/Tele2Sans-Medium.woff') format('woff'),url('../fonts/Tele2Sans-Medium.ttf') format('truetype'),url('../fonts/Tele2Sans-Medium.svg#Tele2Sans-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.t2slab-heavy {
+    font-family: "Tele2Sans-Medium";
+    font-variant: normal;
+    font-weight: normal !important;
+    line-height: 1.06em;
+    text-rendering: auto;
+}
+
+.t2slab-bold {
+    font-family: "Tele2Sans-Light";
+    font-variant: normal;
+    font-weight: normal !important;
+    line-height: 1.06em;
+    text-rendering: auto;
+}
+
+.t2slab-regular {
+    font-family: "Tele2Sans-Regular";
+    font-variant: normal;
+    font-weight: normal !important;
+    line-height: 1.06em;
+    text-rendering: auto;
+}
+
+.mark, mark {
+    padding: .0em;
+    background-color: #f37b67;
+}
+
+.metric2x {
+    font-size: 8em;
+    line-height: 1;
+}
+
+.metric {
+    font-size: 6em;
+    line-height: 1;
+}
+
+.metric-small {
+    font-size: 1.9em;
+    line-height: 1;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125); 
+    border-radius: .25rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0rem; 
+}
+
+html, body {
+    font-family: 'Tele2Sans-Regular';
+    background: url('../img/blue1.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: #fff;
+}
+
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 0px solid rgba(0,0,0,.125);
+}
+
+.card-chart {
+    margin: 10px;
+}
+
+.sticky-title p{
+     font-size: 5.2rem;
+	line-height:.84;
+	margin:0;
+	color:white;
+	width:100%;
+	text-transform:uppercase;
+	font-family:'Tele2Sans-Regular',Helvetica,Arial,Tahoma
+}
+
